@@ -1,4 +1,4 @@
-package pl.krutkowska.creditcard:;
+package pl.krutkowska.creditcard;
 
 import static org.junit.Assert.assertTrue;
 
