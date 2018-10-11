@@ -1,0 +1,314 @@
+    1  sudo yum -y install java-1.8.0-openjdk-devel
+    2  sudo update-alternatives --config java
+    3  sudo update-alternatives --config javac
+    4  mvn -version
+    5  sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+    6  sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+    7  sudo yum install -y apache-maven
+    8  mvn -version
+    9  sudo yum install git
+   10  ls
+   11  ls
+   12  ls
+   13  pwd
+   14  ls
+   15  cd 200267
+   16  ls
+   17  ls
+   18  pwd
+   19  sudo -s
+   20  pwd
+   21  pwd
+   22  cd kanclerj/
+   23  ls
+   24  cd 202037
+   25  cd 198903
+   26  cd 201601
+   27  cd 199992
+   28  cd 199979
+   29  cd201600
+   30  cd 200243
+   31  cd 201600
+   32  cd 199329
+   33  cd 199625
+   34  cd 201228
+   35  cd 201131
+   36  java -v
+   37  clear
+   38  clear
+   39  which git
+   40  ls
+   41  cd 200266
+   42  ls
+   43  git status
+   44  git init
+   45  git init
+   46  ls -la
+   47  cd .git
+   48  ls
+   49  cd ..
+   50  ls
+   51  git status
+   52  ls
+   53  ls
+   54  clear
+   55  ls -a
+   56  pdw
+   57  git init
+   58  ls reame.MD
+   59  ls
+   60  git init
+   61  git init
+   62  git init
+   63  git init
+   64  git init
+   65  git init 
+   66  cd 199344
+   67  git init
+   68  cd 199210
+   69  cd /
+   70  git init
+   71  git init
+   72  ls readme.MD
+   73  git init
+   74  git init
+   75  cd 201479
+   76  git init
+   77  ls
+   78  git init
+   79  git init
+   80  git init 
+   81  git init
+   82  cd enviroment
+   83  ls
+   84  cd ..
+   85  LS readme.md
+   86  cd environment
+   87  cd 201734
+   88  ls .git
+   89  ls readme.md
+   90  cd 198867
+   91  git status
+   92  cd ~/environment
+   93  ls
+   94  cd pp5
+   95  git init
+   96  git init
+   97  git init
+   98  cd 199693
+   99  cd 201479
+  100  git init
+  101  ls -la
+  102  cd 200267
+  103  ls
+  104  git init
+  105  ls -la
+  106  ls -la
+  107  PS1=s:
+  108  ls -la
+  109  PS1=s:
+  110  ls -la
+  111  ls ../
+  112  ls ../ -a
+  113  ls -la
+  114  ls -la
+  115  ls -la
+  116  ls -la
+  117  ls -la
+  118  ls -la
+  119  ls -la
+  120  LS
+  121  ls -la
+  122  ls
+  123  rm ../.git -rf
+  124  ls readme.MD
+  125  ls -la
+  126  ls
+  127  ls ../ -a
+  128  ls -la
+  129  cd .git/
+  130  ls -la
+  131  ls
+  132  cd .git
+  133  ls
+  134  cd .git
+  135  cd ..
+  136  cd .git/
+  137  ls
+  138  ls
+  139  cd .git
+  140  ls
+  141  cd 201720
+  142  cd ..
+  143  cd .git
+  144  clear
+  145  cd .git
+  146  ls
+  147  ls
+  148  git inid
+  149  cd .git
+  150  ls
+  151  git init
+  152  ls -la
+  153  cd 199625
+  154  ls
+  155  pwd
+  156  cd 200023
+  157  git init
+  158  cd ..
+  159  cd .git
+  160  ls
+  161  cd .git
+  162  ls
+  163  cd ..
+  164  ls -la
+  165  cd .git
+  166  ls
+  167  ls branches
+  168  ls
+  169  cd ..
+  170  cd branches
+  171  cd 201228
+  172  ls
+  173  cd ..
+  174  cd 198903
+  175  cd..
+  176  cd ../..
+  177  clear
+  178  cd ..
+  179  cd
+  180  cd ..
+  181  git config
+  182  cd environment/201601
+  183  cd 201228
+  184  cd 201131
+  185  git config
+  186  git config user.email dominikquc@gmail.com
+  187  ls
+  188  git config user.name dominikkuc
+  189  git status
+  190  ls
+  191  git config --global user.name "Rafal Kielbowicz"
+  192  ls -la
+  193  cd .git
+  194  ls -la
+  195  git config user.name "Jakub Krzemien"
+  196  git config --global user. name "Maria Pszczola"
+  197  cd confog
+  198  cd config
+  199  git config user.name "Jakub Kanclerz"
+  200  git config user.name "Jakub Szkarlat"
+  201  git config user.name "Joanna Klusek"
+  202  git config user.email "Jakub Szkarlat"
+  203  git config  user.name "200990" 
+  204  git config
+  205  git config useremail "kontakt@jkan.pl"
+  206  git config user.name "Tomasz Szkaradek"
+  207  git config user.name "Albert"
+  208  git config user.email "kontakt@jkan.pl"
+  209  git config user.name "Pawel Klejka"
+  210  ls -al
+  211  git config user.name "Przemysław Adamczyk"
+  212  git config user.name "Mateusz Gut"
+  213  git config user.email "jakubszkarlat@gmail.com"
+  214  git config user.name "Wojtek Wysoglad"
+  215  git config --global user.name "Maria Pszczola"
+  216  cd .git/
+  217  git config user.name "Jakub Duda"
+  218  git config user.email "s200243@wizard.uek.krakow.pl"
+  219  ls -alt
+  220  git config user.name "Eliza Tomasiak"
+  221  git config user.name "Damian Gorski" 
+  222  git config user.name "Rafal Kielbowicz"
+  223  git config user.email "askooler1@gmail.com"
+  224  git config user.name "Zaneta Cichon"
+  225  cd .git/config 
+  226  git config user.email "pawel.klejka12653@gmail.com"
+  227  git config user.name "201734"
+  228  nano config 
+  229  git config user.email "joanna.klusek@gmail.com"
+  230  git config user.name "afternun"
+  231  git config useremail "tomasz.szkrdk@gmail.com"
+  232  git config  user.name "Piotr Drożdż"
+  233  cd ..
+  234  cat .git/config 
+  235  git config
+  236  git config user.email "yodeusz@gmail.com"
+  237  git config user.email 
+  238  ls -la
+  239  git status
+  240  git status
+  241  git config user.email "gutmateusz96@interia.pl"
+  242  git status
+  243  git config user.name "Jan Kubierecki"
+  244  git status
+  245  git status 
+  246  git status
+  247  git status
+  248  git status 
+  249  git config useremail "ppadamczyk257@gmail.com"
+  250  git status
+  251  git status
+  252  ls
+  253  git config user.email "tomasz.szkrdk@gmail.com"
+  254  git config user.email "baoslabel@gmail.com"
+  255  .
+  256  cd ..
+  257  cd .
+  258  cd ..
+  259  ls
+  260  git add readme.MD 
+  261  ls
+  262  git config user.name "Damian Gorski" 
+  263  git status
+  264  git show
+  265  git config email "jduda1997@gmail.com"
+  266  clear
+  267  cd ..
+  268  git status
+  269  git status
+  270  git config useremail "etomasiak97@gmail.com"
+  271  git status
+  272  ls
+  273  git config user.email "kiel.rafal@gmail.com"
+  274  git status
+  275  git status
+  276  git config user.email jankubierecki@gmail.com
+  277  git status
+  278  cd ..
+  279  ls
+  280  git status
+  281  git status
+  282  git status
+  283  clear
+  284  git add README.md 
+  285  cd 201228
+  286  git config user.name "Karolina Rutkowska"
+  287  git status
+  288  git 
+  289  git add readme.*
+  290  git status
+  291  git commit
+  292  git status
+  293  git add readme.MD 
+  294  git commit -m 'technical requirements added'
+  295  git log
+  296  mvn
+  297  mvn archetype:generate
+  298  cd..
+  299  cd ..
+  300  git status
+  301  cd ..
+  302  cd 201228
+  303  cd .
+  304  cd ./
+  305  cd~/environment
+  306  pwd
+  307  cd environment/201228/
+  308  git status
+  309  git add
+  310  git add creditcard.app/
+  311  git commit -m 'credit app created'
+  312  git status
+  313  history
+  314  history > historia.txt
