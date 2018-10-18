@@ -9,3 +9,4 @@
 - git checkout sluzy do podrozowania po historii
 - git revert <commit> sluzy do odwrocenia zmian ktore zostaly popelnione
 - git reset <commit> mozna sie cofnac w hisotrii 
+- -git clean usuwa smieciowe pliki
