@@ -6,3 +6,6 @@
 - git status sprawdza status plikow w repozytorium 
 - git add dodaje plik 
 - git commit potwierdza
+- git checkout sluzy do podrozowania po historii
+- git revert <commit> sluzy do odwrocenia zmian ktore zostaly popelnione
+- git reset <commit> mozna sie cofnac w hisotrii 
