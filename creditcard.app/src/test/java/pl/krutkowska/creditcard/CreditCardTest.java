@@ -14,4 +14,10 @@ public class CreditCardTest {
         Assert.assertTrue(card.getLimit() == 2000);
     }
     
+    @Test(expected = WithdrawWhenOverTheLimit.class)
+    public void cantWithdrawWhenOverTheLimit() throws Exception {
+        CreditCard card = new CreditCard();
+        card.assignLimit(200);
+        card.withdraw(400);
+    }
 }
