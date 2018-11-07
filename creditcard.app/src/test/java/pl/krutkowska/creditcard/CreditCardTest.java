@@ -16,11 +16,6 @@ public class CreditCardTest {
     
 
     @Test
-    public void cantWithdrawWhenCantAfford() {
-        //fork test
-    }
-    
-    @Test
      public void canBlockCard () {
          
          CreditCard card = new CreditCard();
@@ -32,8 +27,13 @@ public class CreditCardTest {
     @Test(expected = WithdrawWhenOverTheLimit.class)
     public void cantWithdrawWhenOverTheLimit() throws Exception {
         CreditCard card = new CreditCard();
-        card.assignLimit(200);
-        card.withdraw(400);
+        
+        card.assignLimit(2000);
+        card.withdraw(500);
+        
+        Assert.assertTrue(card.getBalance() == 1500);
+        
     }
 
+ 
 }
